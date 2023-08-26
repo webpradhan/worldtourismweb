@@ -1,0 +1,45 @@
+@import url('https://fonts.googleapis.com/css2?family=Barriecito&family=Gulzar&family=Lilita+One&family=Pacifico&family=Tilt+Prism&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Lobster&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Caveat:wght@400;500&family=Dancing+Script:wght@400;500&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Black+Ops+One&display=swap');
+/* font-family: 'Gulzar', serif;
+font-family: 'Lobster', cursive;
+font-family: 'Lilita One', cursive;
+font-family: 'Pacifico', cursive;
+font-family: 'Tilt Prism', cursive; 
+font-family: 'Black Ops One', cursive;
+font-family: 'Barriecito', cursive;
+font-family: 'Caveat', cursive;
+font-family: 'Dancing Script', cursive;*/
+
+*{
+    margin: 0;
+    padding: 0;
+}
+body{
+    background-image: url(../Images/other-bg.jpg);
+    background-repeat: no-repeat;
+    background-size: cover;
+    background-attachment: fixed;
+    scroll-behavior: smooth;
+    overflow-y: hidden;
+    overflow-x: hidden;
+}
+.container{
+    background-image: linear-gradient(rgba(0,0,0,0.4),rgba(0,0,0,0.4));
+    position: absolute;
+    text-align: center;
+    padding: 25px;
+    margin-top: 18%;
+    margin-left: 23%;
+}
+.brand-name{
+    font-family: 'Barriecito', cursive;
+    font-size: 1.6rem;
+    color: white;
+}
+.info{
+    font-family: 'Black Ops One', cursive;
+    color: goldenrod;
+    font-size: 2rem;
+}
